@@ -1,0 +1,83 @@
+/* universal reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body styles */
+
+body{
+    font-family: "Work Sans", serif;
+   
+}
+/* Sub-container styles */  
+
+.sub-container{
+    background-color: darkcyan;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+/* Subscription card container */
+
+.sub-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.card-features {
+    border: solid white 1px;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 10px;
+}
+.card-features p{
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    height: auto;
+    gap: 5px;  
+    border-radius: 5px;
+}
+
+.card__heading h2, h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+             
+}
+.card-btn{
+
+    background-color: goldenrod;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.card-btn:hover{
+    background-color: orchid;
+
+} 
+
